@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:qr_scaner_example/screens/scaner_page.dart';
+import 'package:qr_scaner_example/screens/scaner/scaner_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
