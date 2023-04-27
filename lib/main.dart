@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:qr_scaner_example/screens/home_page.dart';
+import 'package:qr_scaner_example/screens/home/home_page.dart';
 
 void main() {
   runApp(const MyApp());
