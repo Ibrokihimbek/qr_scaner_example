@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:qr_scaner_example/screens/home/home_page.dart';
-import 'package:qr_scaner_example/screens/timer/timer_page.dart';
+import 'package:qr_scaner_example/screens/scaner/scaner_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(body: StopwatchWidget(),),
+      home: ScanerPage()
     );
   }
 }
